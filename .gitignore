@@ -27,9 +27,20 @@ lerna-debug.log*
 .settings/
 *.sublime-workspace
 
+# Package manager files
+package-lock.json
+.yarn
+
 # IDE - VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Dev data
+postgres-data
+
+# ENV
+.env-*
+.env

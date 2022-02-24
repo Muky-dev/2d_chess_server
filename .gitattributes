@@ -1,0 +1,9 @@
+# to native line endings on checkout.
+*.lock text
+*.svg text
+*.map text
+# Declare files that will always have CRLF line endings on checkout.
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf

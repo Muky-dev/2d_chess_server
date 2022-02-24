@@ -1,0 +1,14 @@
+node_modules/
+build/
+dist/
+coverage/
+postgres-data
+.env
+.env.example
+.yarn/
+.git
+.vscode
+*.log
+.idea
+.yarn
+.github
